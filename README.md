@@ -1,2 +1,2 @@
-# macvm
+# MacVM
 CLI Tool for manage Virtual Machines natives for Apple Silicon
