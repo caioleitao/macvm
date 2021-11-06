@@ -1,0 +1,14 @@
+#!/bin/sh
+macvm=/usr/local/bin/macvm
+
+if [[ -f "$macvm" ]]; then
+    sudo rm $macvm
+    echo "the password is required to update macvm"
+    sudo cp src/main.sh $macvm
+    echo "Updated macvm"
+    else 
+        echo "the password is required to install macvm"
+        sudo cp src/main.sh $macvm
+        echo "Installation finished."
+fi
+
